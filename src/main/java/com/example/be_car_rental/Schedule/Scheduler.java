@@ -1,6 +1,6 @@
 package com.example.be_car_rental.Schedule;
 
-import com.example.be_car_rental.services.HopdongService;
+import com.example.be_car_rental.Services.HopDongService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class Scheduler {
 
     @Autowired
-    private HopdongService hopdongService;
+    private HopDongService hopdongService;
 
     @Scheduled(cron = "0 0/30 * * * ?")
     public void kiemTraHopDongHetHan() {

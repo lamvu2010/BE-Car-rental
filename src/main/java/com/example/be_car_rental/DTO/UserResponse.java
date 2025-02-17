@@ -1,7 +1,6 @@
 package com.example.be_car_rental.DTO;
 
-import com.example.be_car_rental.models.Khachhang;
-import com.example.be_car_rental.models.Quyen;
+import com.example.be_car_rental.Models.KhachHang;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,8 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserResponse {
-    private Khachhang khachhang;
+    private KhachHang khachHang;
     private String quyen;
     private String token;
-    private boolean gplx;
+    private boolean giayPhepLaiXe;
 }

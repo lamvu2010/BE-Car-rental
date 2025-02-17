@@ -1,0 +1,21 @@
+# Ignore Markdown help file
+HELP.md
+
+# Maven directories
+/target/
+/.mvn/
+/mvnw
+/mvnw.cmd
+
+# Node.js dependencies
+/node_modules/
+
+# IntelliJ IDEA project files
+.idea/
+
+# Ignore all JSON files
+*.json
+
+# Ignore specific folders
+/src/main/resources/
+/src/test/
